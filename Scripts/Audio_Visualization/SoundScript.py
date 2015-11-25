@@ -1,3 +1,9 @@
+__author__ = "Jacob Nazarenko"
+
+#######################################################################################
+# The main code of the visualization function -- takes the directory of an audio file
+#######################################################################################
+
 import bpy
 import colorsys
 

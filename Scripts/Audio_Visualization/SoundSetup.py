@@ -1,3 +1,9 @@
+__author__ = "Jacob Nazarenko"
+
+################################################################################
+# This code sets up the function you will be linking to the driver in Blender
+################################################################################
+
 import bpy
 import colorsys
 
