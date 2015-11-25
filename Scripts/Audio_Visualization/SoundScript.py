@@ -97,5 +97,4 @@ def unbake_visualization_curves():
 
 
 if __name__ == "__main__":
-    sound_visualization_scene_setup(
-        r"C:\\Users\\Jacobson\\Videos\\Audio Visualization Blender\\alesso_heroes_youtube.mp3")
+    sound_visualization_scene_setup(r"C:\\Users\\Jacobson\\Videos\\Audio Visualization Blender\\alesso_heroes_youtube.mp3")
