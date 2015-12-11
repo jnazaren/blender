@@ -1,7 +1,5 @@
 import bpy
 import math
-import Redraw
-import Intersection
 
 def CubeAnimation(startframe = 1, turnLength = 30):
     """bpy.utils.register_class(ModalTimerOperator)"""
