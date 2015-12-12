@@ -32,7 +32,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "L'":
             for object in bpy.context.scene.objects:
@@ -46,7 +46,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "MY":
             for object in bpy.context.scene.objects:
@@ -60,7 +60,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "MY'":
             for object in bpy.context.scene.objects:
@@ -74,7 +74,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "R":
             for object in bpy.context.scene.objects:
@@ -88,7 +88,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "R'":
             for object in bpy.context.scene.objects:
@@ -102,7 +102,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "U":
             for object in bpy.context.scene.objects:
@@ -116,7 +116,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "U'":
             for object in bpy.context.scene.objects:
@@ -130,7 +130,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "MZ":
             for object in bpy.context.scene.objects:
@@ -144,7 +144,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "MZ'":
             for object in bpy.context.scene.objects:
@@ -158,7 +158,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "D":
             for object in bpy.context.scene.objects:
@@ -172,7 +172,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "D'":
             for object in bpy.context.scene.objects:
@@ -186,7 +186,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "F":
             for object in bpy.context.scene.objects:
@@ -200,7 +200,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "F'":
             for object in bpy.context.scene.objects:
@@ -214,7 +214,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "MX":
             for object in bpy.context.scene.objects:
@@ -228,7 +228,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "MX'":
             for object in bpy.context.scene.objects:
@@ -242,7 +242,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "B":
             for object in bpy.context.scene.objects:
@@ -256,7 +256,7 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "B'":
             for object in bpy.context.scene.objects:
@@ -270,20 +270,28 @@ def CubeAnimation(startframe=0, turnLength=30):
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
             for object in bpy.context.selected_objects:
                 object.keyframe_insert(data_path="location")
-                object.keyframe_insert(data_path="rotation_euler")
+                object.keyframe_insert(data_path="rotation_quaternion")
 
         elif userInput == "Next" or userInput == "next":
             for object in bpy.context.scene.objects:
                 if object.type == 'MESH' and object.name.startswith("Cube"):
                     object.keyframe_insert(data_path="location")
-                    object.keyframe_insert(data_path="rotation_euler")
+                    object.keyframe_insert(data_path="rotation_quaternion")
                 else:
                     continue
             turn += 1
             bpy.data.scenes['Scene'].update()
 
         else:
-            userInput = ""
+            for object in bpy.context.scene.objects:
+                if object.type == 'MESH' and object.name.startswith("Cube"):
+                    object.select = True
+                else:
+                    object.select = False
+            for obj in bpy.context.selected_objects:
+                for fcurve in obj.animation_data.action.fcurves:
+                    for kf in fcurve.keyframe_points:
+                        kf.interpolation = 'LINEAR'
             bpy.data.scenes["Scene"].frame_set(startframe)
             break
 
