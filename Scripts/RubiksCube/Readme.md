@@ -12,11 +12,11 @@
 **R , R'**  
 **----------------**  
 **U , U'**  
-**MZ , MZ'  (middle parallel to BLENDER'S x-axis; controls are from TOP perspective)**  
+**MZ , MZ'  (controls are from TOP perspective)**  
 **D , D'**  
 **----------------**  
 **F , F'**  
-**MX , MX'  (controls from FRONT perspective)**  
+**MX , MX'  (middle parallel to BLENDER'S x-axis; controls from FRONT perspective)**  
 **B , B'** 
 
 **'NEXT' or 'next' for each next turn (you can have more than one rotation per turn)**  
