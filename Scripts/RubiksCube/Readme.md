@@ -8,7 +8,7 @@
 **In the Blender Console, enter one of the following:**  
 
 **L , L'**  
-**MY , MY'  (middle parallel to the YOUR y-axis or BLENDER'S x-axis; controls are from LEFT perspective)**  
+**MY , MY'  (controls are from LEFT perspective)**  
 **R , R'**  
 **----------------**  
 **U , U'**  
@@ -16,7 +16,7 @@
 **D , D'**  
 **----------------**  
 **F , F'**  
-**MX , MX'  (middle parallel to BLENDER'S x-axis; controls are from FRONT perspective)**  
+**MX , MX'  (controls are from FRONT perspective)**  
 **B , B'** 
 
 **'NEXT' or 'next' for each next turn (you can have more than one rotation per turn)**  
